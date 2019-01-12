@@ -2,6 +2,10 @@
 
 shell functions to write markdown notes
 
+## Dependencies
+
+* [pandoc](https://pandoc.org/installing.html)
+
 ## Installation
 
 Clone the repo and run
