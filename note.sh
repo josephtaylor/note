@@ -27,6 +27,10 @@ function _note_ls() {
 }
 
 function _note_rm() {
+    if [ $# -eq 0 ]; then
+        echo "Please provide a filename argument"
+        return  1
+    fi
     read -r -p "Are you sure? [y/N] " response
     case "$response" in
         [yY][eE][sS]|[yY]) 
